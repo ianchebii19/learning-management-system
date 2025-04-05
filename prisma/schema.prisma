@@ -7,7 +7,7 @@ datasource db {
   url      = env("DATABASE_URL")
 
 }
-
+//
 
 model Course{
   id String @id @default(uuid())
@@ -16,6 +16,7 @@ model Course{
   description String ? @db.Text
   imageUrl String ? @db.Text
   price Float?
+  stripeCustomerId String?
   isPublished Boolean @default(false)
   categoryId String?
   category Category? @relation(fields: [categoryId], references:[id])

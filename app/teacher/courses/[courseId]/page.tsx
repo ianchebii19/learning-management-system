@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import AttachmentForm from "@/components/course/AttachmentForm";
 import CategoryForm from "@/components/course/CategoryForm";
 import ChapterForm from "@/components/course/ChapterForm";

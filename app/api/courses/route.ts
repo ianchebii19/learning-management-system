@@ -13,7 +13,7 @@ export async function POST(req: Request){
      const course = await db.course.create({
         data: {
             title,
-            userId
+            userId,// Using userId as a temporary value
         }
      })
      return NextResponse.json(course, { status: 201 })

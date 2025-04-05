@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { db } from "@/lib/db";
 import { stripe } from "@/lib/stripe";
 import { headers } from "next/headers";

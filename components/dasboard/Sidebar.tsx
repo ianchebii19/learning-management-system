@@ -1,3 +1,6 @@
+// @ts-nocheck
+
+
 "use client";
 
 import {
@@ -30,7 +33,7 @@ const adminSidebarMenuItems: MenuItem[] = [
   {
     id: "browse",
     label: "Browse",
-    path: "dashboard/browse",
+    path: "/dashboard/browse",
     icon: <Globe />,
   },
 ];

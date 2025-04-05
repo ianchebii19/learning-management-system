@@ -136,7 +136,7 @@ export default async function StudentDashboard() {
             Browse our catalog to find courses that match your interests
           </p>
           <Button className="mt-4" asChild>
-            <Link href="/browse">Browse Courses</Link>
+            <Link href="/dashboard/browse">Browse Courses</Link>
           </Button>
         </div>
       )}

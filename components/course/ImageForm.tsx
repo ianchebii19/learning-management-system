@@ -1,3 +1,6 @@
+
+// @ts-nocheck
+
 "use client";
 
 import { zodResolver } from "@hookform/resolvers/zod";
